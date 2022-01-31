@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class main {
     public static void main(String[] args) throws FileNotFoundException {
-        Scanner in = new Scanner(System.in);
+        Scanner in = new Scanner(System.in); //Paste input, then Ctrl-D
         ArrayList<int[]> table = new ArrayList<>();
         while (in.hasNext()) {
             String line = in.nextLine();
